@@ -5,5 +5,18 @@ $(document).ready(function(){
 		$("#page_entry").css("display","none");
 	});
 	
+	$(".card").click(function(){
+		var count = $(this).attr("attr-count");
+		$(this).attr("attr-count", parseInt(count)+1);
+		
+		console.log("dangqian:"+count);
+		if(count % 2 == 0){
+			$(this).css("transform", "rotateY(180deg)");
+		}
+		else{
+			$(this).css("transform", "rotateY(0deg)");
+		}
+		 
+	});
 	
 });
