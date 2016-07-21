@@ -94,7 +94,7 @@ body {
 }
 
 .back{
-	position:relative;
+	position:absolute;
 	-webkit-transform:rotateY(180deg);
 	-moz-transform:rotateY(180deg);
 	width:100%;
