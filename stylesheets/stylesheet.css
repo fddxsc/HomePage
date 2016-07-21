@@ -76,15 +76,6 @@ body {
 	float:left;
 }
 
-.container_card:hover .card{
-	-webkit-transform:rotateY(180deg);
-	-moz-transform:rotateY(180deg);
-}
-
-.container_card_right:hover .card{
-	-webkit-transform:rotateY(180deg);
-	-moz-transform:rotateY(180deg);
-}
 
 .card{
 	width:100%;
