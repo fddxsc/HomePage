@@ -91,6 +91,11 @@ body {
 	position:absolute;
 	-webkit-backface-visibility:hidden;
 	-moz-backface-visibility:hidden;
+	line-height:200px;
+	text-align:center;
+	padding-left:40px;
+	font-size:50px;
+	color:white;
 }
 
 .back{
