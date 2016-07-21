@@ -102,9 +102,9 @@ body {
 	
 }
 
-#te{
-background: url("../images/img1.jpg") no-repeat center center;
-	background-size: 100% auto;	
-	
+.ima{
+	width:100%; 
+	margin-top:auto; 
+	display:none;
 }
 
